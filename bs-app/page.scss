@@ -1,0 +1,45 @@
+.left-panel{
+    width:40%;
+}
+
+
+
+.right-panel{
+    width:250px;
+}
+
+[md-tab-label]{
+    font-size: 8px;
+    min-width: 50px;
+}
+
+[md-tab-label]{
+
+    
+}
+
+.md-overlay-pane{
+    width:100%
+}
+
+.md-tab-header{
+    display: none;
+}
+
+.hidden{
+    display:none;
+}
+
+
+@media(max-width:768px){
+    .left-panel{
+        width:80%;
+    }
+}
+
+
+.center-button{
+    display: table;
+    margin-left:auto;
+    margin-right:auto;
+}

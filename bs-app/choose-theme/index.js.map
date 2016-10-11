@@ -1,0 +1,1 @@
+{"version":3,"sources":["bs-app/choose-theme/index.ts"],"names":[],"mappings":";;;;AAAA,iBAAc,eAAe,CAAC,EAAA","file":"bs-app/choose-theme/index.js","sourcesContent":["export * from './basic-theme';\r\n"],"sourceRoot":"/source/"}

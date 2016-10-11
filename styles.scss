@@ -1,0 +1,27 @@
+.md-overlay-pane{
+    width:80%;
+}
+
+.no-margin{
+    margin:0;
+    padding:0;
+}
+
+
+//消除遮罩层
+.modal-backdrop.in {
+    opacity:0;
+    display: none;
+}
+
+// 重定义了 dialog的宽度
+.modal-dialog{
+    width:100%;
+}
+
+.border-red{
+    border: 2px red dotted; 
+}
+.border-primary{
+    border:2px solid blue ;
+}

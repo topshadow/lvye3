@@ -1,0 +1,31 @@
+import { OnInit, ElementRef } from '@angular/core';
+import { Router } from '@angular/router';
+import { UserService, DocService } from 'core';
+export declare class SignIn implements OnInit {
+    private router;
+    private userService;
+    private docService;
+    private el;
+    remeberMe: boolean;
+    user: User;
+    firebase: any;
+    canRegister: boolean;
+    registerMessage: string;
+    repeatPasswordMessage: string;
+    docs: Doc[];
+    doc: any;
+    themes: Website[];
+    selectedTheme: Website;
+    constructor(router: Router, userService: UserService, docService: DocService, el: ElementRef);
+    ngOnInit(): void;
+    checkUserExist(): void;
+    signIn(): void;
+    signDialog(): void;
+    signUp(): void;
+    chooseTheme(website: Website): void;
+    checkRepeatPassword(): boolean;
+    addDoc(): void;
+    deleteDoc(doc: Doc): void;
+    editLogin(): void;
+    previewLogin(): void;
+}

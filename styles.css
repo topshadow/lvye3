@@ -1,0 +1,21 @@
+.md-overlay-pane {
+  width: 80%; }
+
+.no-margin {
+  margin: 0;
+  padding: 0; }
+
+.modal-backdrop.in {
+  opacity: 0;
+  display: none; }
+
+.modal-dialog {
+  width: 100%; }
+
+.border-red {
+  border: 2px red dotted; }
+
+.border-primary {
+  border: 2px solid blue; }
+
+/*# sourceMappingURL=styles.css.map */
